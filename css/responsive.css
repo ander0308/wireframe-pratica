@@ -1,0 +1,312 @@
+@media (max-width: 1480px) {
+  .s-hero .container .text-hero {
+    width: 100%;
+    max-width: 35rem;
+  }
+  .s-hero .container .text-hero .btns {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .s-hero .container .text-hero .btns a:last-child {
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+
+  .s-hero .container .illustra-hero img {
+    right: -4rem;
+    max-width: 97%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .s-hero .container .illustra-hero img {
+    max-width: 92%;
+    right: -5rem;
+  }
+
+  .s-hero .container .scroll {
+    display: none;
+  }
+
+  .s-plans .container .all-cards .card {
+    width: 100%;
+    max-width: 30rem;
+    padding: 3.6rem 2.5rem;
+  }
+  .s-trends .container .trends-info {
+    margin-left: 4rem;
+  }
+  .s-team {
+    padding-bottom: 9rem;
+  }
+
+  .s-team .container {
+    max-width: 90%;
+  }
+  .s-team .container .box-team {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3.2rem;
+  }
+
+  .s-team .container .box-team .team-card p {
+    margin-top: 2rem;
+  }
+  .s-quote h2 {
+    width: 100%;
+    max-width: 80%;
+    text-align: center;
+    margin-bottom: 9rem;
+    font-size: 3rem;
+  }
+
+  footer .container main nav {
+    width: 100%;
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 991px) {
+  .s-hero {
+    padding-top: 6rem;
+  }
+
+  .s-hero .container {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .s-hero .container .text-hero {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .s-hero .container .text-hero .btns {
+    align-items: center;
+  }
+
+  .s-hero .container .illustra-hero {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .s-hero .container .illustra-hero img {
+    right: 0;
+  }
+  .s-services .container {
+    padding: 9rem;
+  }
+
+  .s-services .container .all-skills {
+    flex-wrap: wrap;
+  }
+  .s-services .container .all-skills .skill h3::before {
+    display: block;
+  }
+
+  .s-services .container .all-skills .skill:nth-child(5),
+  .s-services .container .all-skills .skill:nth-child(6) {
+    margin-bottom: 9rem;
+  }
+
+  .s-plans .container .all-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 3.2rem;
+    margin-top: 6.4rem;
+  }
+
+  .s-call-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 9rem;
+  }
+
+  .s-call-main h2 {
+    max-width: 90%;
+    font-size: 3rem;
+  }
+
+  .s-call-main a.btn-primary {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .s-trends {
+    padding-bottom: 9rem;
+  }
+
+  .s-trends .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .s-trends .container .trends-info {
+    width: 90%;
+    max-width: 51.9rem;
+    margin-top: 6rem;
+    text-align: center;
+    margin-left: 0;
+  }
+  .s-trends .container .trends-info h2 {
+    max-width: 100%;
+  }
+
+  .s-team .container > p {
+    margin-bottom: 6rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .s-services .container .all-skills {
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem;
+    text-align: center;
+  }
+
+  .s-services .container .all-skills .skill {
+    max-width: 100%;
+  }
+
+  .s-services .container .all-skills .skill:nth-child(7) {
+    margin-bottom: 9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  header .container img {
+    max-width: 100px;
+  }
+  header .menu-mobile {
+    display: block;
+  }
+  header .container nav {
+    display: none;
+  }
+
+  .s-hero .container .text-hero h1 {
+    font-size: 5.5rem;
+  }
+
+  .s-services .container > p {
+    max-width: 90%;
+    margin: 2rem auto;
+  }
+
+  .s-plans {
+    padding: 6.4rem;
+  }
+
+  .s-plans .container > p {
+    max-width: 90%;
+    margin: 2rem auto;
+  }
+
+  footer .container main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .container main .box-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+
+  footer .container main nav {
+    max-width: 100%;
+  }
+  footer .container main nav .nav-col {
+    text-align: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .s-team .container .box-team .team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 55%;
+  }
+  h1 {
+    font-size: 4.2rem;
+  }
+  header .logo {
+    max-width: 130px;
+  }
+  .container {
+    padding: 0.8rem;
+  }
+  .s-services .container {
+    padding: 6rem;
+  }
+
+  .s-plans {
+    padding: 4rem;
+  }
+
+  .s-plans .container .all-cards {
+    margin-top: 4rem;
+    gap: 2rem;
+  }
+  .s-call-main {
+    margin: 4rem 0;
+  }
+
+  .s-trends {
+    padding-bottom: 6rem;
+  }
+  .s-team .container > p {
+    margin-bottom: 4rem;
+  }
+  footer {
+    padding-top: 4rem;
+  }
+
+  footer .container main {
+    padding: 4rem;
+  }
+
+  footer .container main nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .container main nav .nav-col {
+    margin-bottom: 4rem;
+  }
+  footer .container main nav .nav-col:last-child {
+    margin-bottom: 0;
+  }
+
+  footer .container main nav .nav-col ul li {
+    font-size: 1.7rem;
+  }
+
+  footer .container .copy {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .container .copy p {
+    margin-bottom: 1.6rem;
+  }
+}
